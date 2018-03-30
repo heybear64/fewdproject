@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Heybear64 Code Louisville Project</title>
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/double-page.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="grid-container centered">
+    <div class="grid-100">
+      <div class="contained">
+        <div class="grid-100">
+            <div class="heading">
+                <div class="mainHeadingLeft">
+                    <h1>Heybear64</h1>
+<!--                    <hr>-->
+                </div>
+                <div class="mainHeadingRight">
+                    <h1>Code Louisville Project</h1>
+<!--                    <hr>-->
+                </div>
+                
+            <ul class="filter-select">
+                <li><button>Home</button></li>
+                <li><button>About</button></li>
+            </ul>
+          </div>
+                       <hr> 
+          <div class="heading">
+            <h2 class="inline">" THE BOOK OF REMY "</h2>
+              <p class="inline">&nbsp;&nbsp;&nbsp;Remy is my Grandson. (To turn page, click and drag corner of page OR click on the corners itself.) </p>
+
+          </div >
+            
+            <div class="remy ">
+              <div class="flipbook-viewport ">
+	<div class="container">
+		<div class="flipbook">
+			<div class="page" style="background-image:url(pages/1.jpg)"></div>
+			<div class="double" style="background-image:url(pages/2.jpg)"></div>
+			<div class="double" style="background-image:url(pages/3.jpg)"></div>
+			<div class="double" style="background-image:url(pages/4.jpg)"></div>
+			<div class="double" style="background-image:url(pages/5.jpg)"></div>
+			<div class="double" style="background-image:url(pages/6.jpg)"></div>
+			<div class="double" style="background-image:url(pages/7.jpg)"></div>
+			<div class="double" style="background-image:url(pages/8.jpg)"></div>
+			<div class="double" style="background-image:url(pages/9.jpg)"></div>
+			<div class="double" style="background-image:url(pages/10.jpg)"></div>
+			<div class="double" style="background-image:url(pages/11.jpg)"></div>
+            <div class="double" style="background-image:url(pages/12.jpg)"></div>
+			<div class="page" style="background-image:url(pages/13.jpg)"></div>
+		</div>
+	</div>
+</div>  
+            
+            </div>
+           <hr> 
+          <div >
+            <h2 class="inline">Android Programming -</h2>
+              <p class="inline">It's a hobby.  (Click the picture for lightbox.) </p>
+              
+          </div>
+            <!-- Images used to open the lightbox -->
+            <div id="photos-chacheet">
+                <ul>
+                    <li class="grid-25 tablet-grid-50"><a href="# " class="image" ><img src="images/chacheet1.png" alt="Android Program Chacheet Financial" onclick="openModal();currentSlide(1)" class="hover-shadow"></a></li>
+                    <li class="grid-25 tablet-grid-50"><a href="# " class="image"><img src="images/Env.png" alt="ChaCheet Money Envelopes page" onclick="openModal();currentSlide(2)" class="hover-shadow"></a></li>
+                    <li class="grid-25 tablet-grid-50"><a href="# " class="image"><img src="images/1kb.png" alt="ChaCheet One Thousand savings page" onclick="openModal();currentSlide(3)" class="hover-shadow"></a></li>
+                    <li class="grid-25 tablet-grid-50"><a href="# " class="image"><img src="images/managedata2.png" alt="ChaCheet Data Manager page" onclick="openModal();currentSlide(4)" class="hover-shadow"></a></li>
+                
+                </ul>
+
+            </div>
+
+            <hr>
+          <div class="heading">
+            <h2 class="inline">Bill Murray Flicker Feed.</h2><p class="inline">&nbsp;&nbsp;&nbsp;From what I recall in class Bill Murray and cats can't hurt. </p>
+
+          </div>
+        </div>
+
+
+        <div id="photos">
+
+        </div>
+      </div>
+    </div>
+                  <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+
+                <div class="mySlides">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <!-- Next/previous controls -->
+                  <div class="prevnext">
+                <a class="prev" onclick="plusSlides(-1)" style="left:0; ">&#10094;</a>
+                  </div>
+                <div class="prevnext">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                    <div class="numbertext">1 / 4</div>
+                   <img src="images/chacheet1.png" style="width:60%" align="center">
+                  
+                </div>
+
+                <div class="mySlides">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <!-- Next/previous controls -->
+                  <div class="prevnext">
+                <a class="prev" onclick="plusSlides(-1)" style="left:0; ">&#10094;</a>
+                  </div>
+                <div class="prevnext">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <div class="numbertext">2 / 4</div>
+                   <img src="images/Env.png" style="width:60%">
+                </div>
+
+                <div class="mySlides">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <!-- Next/previous controls -->
+                  <div class="prevnext">
+                <a class="prev" onclick="plusSlides(-1)" style="left:0; ">&#10094;</a>
+                  </div>
+                <div class="prevnext">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <div class="numbertext">3 / 4</div>
+                   <img src="images/1kb.png" style="width:60%">
+                </div>
+                
+                  <div class="mySlides">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <!-- Next/previous controls -->
+                  <div class="prevnext">
+                <a class="prev" onclick="plusSlides(-1)" style="left:0; ">&#10094;</a>
+                  </div>
+                <div class="prevnext">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <div class="numbertext">4 / 4</div>
+                   <img src="images/managedata2.png" style="width:60%">
+                </div>
+
+
+                
+                  
+                <!-- Caption text -->
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+                  
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                  <img class="demo" src="images/chacheet1.png" onclick="currentSlide(1)" alt="Android Program Chacheet Financial">
+                </div>
+
+                <div class="column">
+                  <img class="demo" src="images/Env.png" onclick="currentSlide(2)" alt="ChaCheet Money Envelopes page">
+                </div>
+
+                <div class="column">
+                  <img class="demo" src="images/1kb.png" onclick="currentSlide(3)" alt="ChaCheet One Thousand savings page">
+                </div>
+
+                <div class="column">
+                  <img class="demo" src="images/managedata2.png" onclick="currentSlide(4)" alt="ChaCheet Data Manager page">
+                </div>
+              </div>
+            </div> <!-- END The Modal/Lightbox -->
+  </div>
+    <script type="text/javascript">
+
+        function loadApp() {
+
+            var flipbook = $('.flipbook');
+
+            // Check if the CSS was already loaded
+
+            if (flipbook.width()==0 || flipbook.height()==0) {
+                setTimeout(loadApp, 10);
+                return;
+            }
+
+            $('.flipbook .double').scissor();
+
+            // Create the flipbook
+
+            $('.flipbook').turn({
+                    // Elevation
+
+                    elevation: 50,
+
+                    // Enable gradients
+
+                    gradients: true,
+
+                    // Auto center this flipbook
+
+                    autoCenter: true
+
+            });
+        }
+
+        // Load the HTML4 version if there's not CSS transform
+
+        yepnope({
+            test : Modernizr.csstransforms,
+            yep: ['js/turn.min.js'],
+            nope: ['js/turn.html4.min.js'],
+            both: ['js/scissor.min.js', 'css/double-page.css'],
+            complete: loadApp
+        });
+
+    </script>
+    <script src="js/lighthouse.js"></script>
+</body>
+</html>
