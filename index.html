@@ -9,9 +9,9 @@
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="js/main.js"></script>
   <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
-  
-  
-  
+
+
+
 
 </head>
 
@@ -21,6 +21,7 @@
       <div class="contained">
         <div class="grid-100">
             <div class="heading">
+              <!--       Start page headings           -->
                 <div class="mainHeadingLeft">
                     <h1>Heybear64</h1>
 <!--                    <hr>-->
@@ -29,19 +30,22 @@
                     <h1>Code Louisville Project</h1>
 <!--                    <hr>-->
                 </div>
-                
+          <!--    END   Start page headings           -->
+          <!--       Start Nav           -->
             <ul class="filter-select">
                 <li><button>Home</button></li>
                 <li><button>About</button></li>
             </ul>
           </div>
-                       <hr> 
+          <!--     END  Start Nav           -->
+          <!--    Start Book of REMY           -->
+                       <hr>
           <div class="heading">
             <h2 class="inline">" THE BOOK OF REMY "</h2>
               <p class="inline">&nbsp;&nbsp;&nbsp;Remy is my Grandson. (To turn page, click and drag corner of page OR click on the corners itself.) </p>
 
           </div >
-            
+
             <div class="remy ">
               <div class="flipbook-viewport ">
 	<div class="container">
@@ -61,14 +65,16 @@
 			<div class="page" style="background-image:url(pages/13.jpg)"></div>
 		</div>
 	</div>
-</div>  
-            
+</div>
+
             </div>
-           <hr> 
+        <!--    End Book of REMY           -->
+        <!--    Start Android lightbox section          -->
+           <hr>
           <div >
             <h2 class="inline">Android Programming -</h2>
               <p class="inline">It's a hobby.  (Click the picture for lightbox.) </p>
-              
+
           </div>
             <!-- Images used to open the lightbox -->
             <div id="photos-chacheet">
@@ -77,12 +83,13 @@
                     <li class="grid-25 tablet-grid-50"><a href="# " class="image"><img src="images/Env.png" alt="ChaCheet Money Envelopes page" onclick="openModal();currentSlide(2)" class="hover-shadow"></a></li>
                     <li class="grid-25 tablet-grid-50"><a href="# " class="image"><img src="images/1kb.png" alt="ChaCheet One Thousand savings page" onclick="openModal();currentSlide(3)" class="hover-shadow"></a></li>
                     <li class="grid-25 tablet-grid-50"><a href="# " class="image"><img src="images/managedata2.png" alt="ChaCheet Data Manager page" onclick="openModal();currentSlide(4)" class="hover-shadow"></a></li>
-                
+
                 </ul>
 
             </div>
-
+            <!--    END Android lightbox section          -->
             <hr>
+            <!--    Start Bill Murray Flicker        -->
           <div class="heading">
             <h2 class="inline">Bill Murray Flicker Feed.</h2><p class="inline">&nbsp;&nbsp;&nbsp;From what I recall in class Bill Murray and cats can't hurt. </p>
 
@@ -93,6 +100,7 @@
         <div id="photos">
 
         </div>
+          <!--    END Bill Murray Flicker        -->
       </div>
     </div>
                   <!-- The Modal/Lightbox -->
@@ -110,7 +118,7 @@
                   </div>
                     <div class="numbertext">1 / 4</div>
                    <img src="images/chacheet1.png" style="width:60%" align="center">
-                  
+
                 </div>
 
                 <div class="mySlides">
@@ -138,7 +146,7 @@
                   <div class="numbertext">3 / 4</div>
                    <img src="images/1kb.png" style="width:60%">
                 </div>
-                
+
                   <div class="mySlides">
                       <span class="close cursor" onclick="closeModal()">&times;</span>
                   <!-- Next/previous controls -->
@@ -153,13 +161,13 @@
                 </div>
 
 
-                
-                  
+
+
                 <!-- Caption text -->
                 <div class="caption-container">
                   <p id="caption"></p>
                 </div>
-                  
+
                 <!-- Thumbnail image controls -->
                 <div class="column">
                   <img class="demo" src="images/chacheet1.png" onclick="currentSlide(1)" alt="Android Program Chacheet Financial">
@@ -179,6 +187,7 @@
               </div>
             </div> <!-- END The Modal/Lightbox -->
   </div>
+  <!-- Start Script for The book of REMY-->
     <script type="text/javascript">
 
         function loadApp() {
@@ -223,6 +232,9 @@
         });
 
     </script>
+    <!-- END Script for The book of REMY--><!-- Script for The book of REMY-->
+    <!-- Start Script for Lightbox -->
     <script src="js/lighthouse.js"></script>
+    <!-- Start Script for Lightbox -->
 </body>
 </html>

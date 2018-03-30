@@ -2,7 +2,9 @@
 
 ## Description
 ```
-The project is hosted at http://www.heybear64.com.  
+The project is hosted at http://www.heybear64.com.  You can also copy all files
+and folders as is to your device and click on index.html to view.  An Internet
+connection is needed for Bill Murray section. 
 You can also read more information about the site on the about page.
 There is no specific theme to the website.  It just demonstrate various coding items.
 The book of Remy, well i just like the way the pages turn.  
