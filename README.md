@@ -55,8 +55,8 @@ The javascript functions I created are:
   is loaded to auto request and populate Bill Murray feed.)
 
 3.   function name ( function validateemail(inputText) )
-.. what function does ( validates email address and pop up alert on if it is valid or not);
+.. what function does ( validates email address and shows pop up alert on if email is valid or not);
 
 4. API name ( turnjs )
-.. what API does ( Used to create books/magazines with single page or double pages);
+.. what API does ( Used to create books/magazine framework with single page or double pages);
 ```
