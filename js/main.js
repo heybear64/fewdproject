@@ -62,16 +62,13 @@ $(document).ready(function () {
                          
         if(inputText.value.match(mailformat))
         {
-            document.visited.mail.focus();
-        return true;
+				alert("You have entered a valid email address!");
         }
         else
         {
-         document.visited.mail.preventDefault();
+
         alert("You have entered an invalid email address!");
-        var 
-        document.visited.mail.focus();
-        return false;
+
         }
     }
 
