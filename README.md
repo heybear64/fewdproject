@@ -2,16 +2,20 @@
 
 ## Description
 ```
-The project is hosted at http://www.heybear64.com.  You can also read more information about the site on the about page.
+The project is hosted at http://www.heybear64.com.  
+You can also read more information about the site on the about page.
 There is no specific theme to the website.  It just demonstrate various coding items.
-The book of Remy, well i just like the way the pages turn.  When your holding and turning the page, moving the page in different
+The book of Remy, well i just like the way the pages turn.  
+When your holding and turning the page, moving the page in different
 ways the page stays in tact.  It's impressive.  
 
-The Android programming section was just something a little personal.  I enlarged the picture on hover and when clicked
-initiates a lightbox which is basically a slideshow and model put together.
+The Android programming section was just something a little personal.  
+I enlarged the picture on hover and when clicked it
+initiates a lightbox which is basically a slideshow and modal put together.
 
-Then there's Bill Murray from Flicker.  I liked the Ajax request and Jason response in this function so I wanted to keep an example of it
-for further reference.  
+Then there's Bill Murray from Flicker.  
+I liked the Ajax request and Jason response in this function so I wanted to
+keep an example of itfor further reference.  
 ```
 
 
@@ -43,7 +47,8 @@ The class(es) I created are:
 The javascript functions I created are:
 
 1. function name ( $('button').click(function () )
-.. what function does ( determines which button has been pressed based on text of button and evaluates what to do based on button.)
+.. what function does ( determines which button has been pressed based on text of button
+  and evaluates what to do based on the text.)
 
 2. API name ( flickerAPI )
 .. what API does ( not setup in specific function.  Modified and setup to run when the JavaScript
